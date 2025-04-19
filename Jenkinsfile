@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        GIT_REPO = ' https://github.com/deepshikha-dubey/myReposetory.git
+        GIT_REPO = 'https://github.com/deepshikha-dubey/myReposetory.git'
         GIT_BRANCH = ‘main'
         DOCKER_REGISTRY = 'localhost:5000'
         IMAGE_NAME = 'myimage'
